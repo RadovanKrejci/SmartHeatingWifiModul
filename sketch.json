@@ -1,0 +1,22 @@
+{
+  "cpu": {
+    "fqbn": "esp8266:esp8266:esp8285:xtal=80,vt=flash,exception=disabled,ResetMethod=ck,CrystalFreq=26,eesz=1M,led=2,ip=lm2f,dbg=Disabled,lvl=None____,wipe=none,baud=115200",
+    "name": "Generic ESP8285 Module",
+    "type": "serial"
+  },
+  "secrets": [
+    {
+      "name": "SECRET_SSID",
+      "value": ""
+    },
+    {
+      "name": "SECRET_PASS",
+      "value": ""
+    },
+    {
+      "name": "SECRET_DEVICE_KEY",
+      "value": ""
+    }
+  ],
+  "included_libs": []
+}
